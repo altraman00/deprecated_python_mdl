@@ -38,17 +38,17 @@ writer.close()
 
 默认使用6006端口
 
-`pytorch tensorboard --logdir=logs`
+`tensorboard --logdir=logs`
 
 或者指定端口运行
 
-`pytorch tensorboard --logdir=logs --port=6007`
+`tensorboard --logdir=logs --port=6007`
 
 ```
-(pytorch) ➜  pytorch pwd                                           
+(pytorch) ➜  pwd                                           
 /Users/mobvoi/workspace/sourceTree/mdl/python/pytorch/learn_pytorch_01
 
-(pytorch) ➜  pytorch tensorboard --logdir=logs
+(pytorch) ➜  tensorboard --logdir=logs
 TensorFlow installation not found - running with reduced feature set.
 
 NOTE: Using experimental fast data loading logic. To disable, pass
